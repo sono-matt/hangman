@@ -9,8 +9,6 @@ def game():
     need_word = random.choice(words)
     word_length = len(need_word)
     letter_guess = ""
-    word_guess = ""
-    is_present = ""
     word_list = []
     used_letters = []
     for i in range(len(need_word)):
